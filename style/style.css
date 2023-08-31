@@ -1,0 +1,209 @@
+/* ***** GENERAL SETTINGS ***** */
+
+/* Reset some default browser styles and set default fonts */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif; /* Setting default font for the page */
+}
+
+header, nav {
+    font-family: 'Montserrat', sans-serif; /* Montserrat for headers and navigation */
+}
+
+body {
+    background-color: #343645;  /* Dark grey for the main background */
+    color: white;
+}
+
+header {
+    background-color: #252733;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #BCBABC;  /* secondary text color */
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+/* ***** PORTFOLIO SETTINGS ***** */
+
+.portfolio {
+    margin: 20px;
+    text-align: left;
+    display: flex;
+}
+
+.portfolio .project {
+    margin-top: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio img {
+    max-width: 20%;
+    border-radius: 5px;
+}
+
+.portfolio a {
+    color: #A1AAC8; /* Secondary highlights */
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.portfolio a:hover {
+    border-color: #DB9F65; /* primary hover color */
+}
+
+/* ***** FUN SETTINGS ***** */
+
+.fun {
+    margin: 20px;
+    text-align: left;
+    display: flex;
+}
+
+.fun .project {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fun img {
+    max-width: 20%;
+    border-radius: 5px;
+}
+
+.fun a {
+    color: #A1AAC8; /* Secondary highlights */
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.fun a:hover {
+    border-color: #DB9F65; /* primary hover color */
+}
+
+
+/* ***** CONTACT SETTINGS ***** */
+
+.contact {
+    margin: 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #A1AAC8; /* Secondary highlights */
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.contact a:hover {
+    border-color: #DB9F65; /* primary hover color */
+}
+
+/* ***** NAVIGATION SETTINGS ***** */
+
+nav {
+    background-color: #252733;  
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #DB9F65;  /* Highlight color */
+}
+
+nav a.active {
+    color: #D26F3E; /* The orange color to indicate the active page */
+}
+
+/* ***** ABOUT/BIO SETTINGS ***** */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 1.5fr 1fr This will give more space to the bio and less to the photo */
+    gap: 0px; /* Space between the bio and the photo */
+    align-items: center; /* Center items vertically */
+    padding: 30px 15% 30px 15%; 
+    background-color: #343645;  /* Dark grey from the palette */
+    color: white;  /* Default text color for the section */
+}
+
+.bio_summary h2 {
+    font-size: 2em;  /* Increase the size a bit for emphasis */
+    margin-bottom: 20px;  /* Some space below the title */
+}
+
+.bio_summary ul {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;  /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.bio_summary li {
+    font-size: 1.5em;  /* Slightly larger list items for emphasis */
+    margin-bottom: 10px;  /* Some space between list items */
+    margin-right: 20px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img {
+    border-radius: 10px;  /* Optional: Rounded corners for the image */
+    width: 80%; /* adjust this as needed */
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about a {
+    color: #A1AAC8; /* Secondary highlights */
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.about a:hover {
+    border-color: #DB9F65; /* primary hover color */
+}
